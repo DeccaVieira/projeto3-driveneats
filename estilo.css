@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+body{
+  box-sizing:border-box;
+}
+.logo {
+    height: 44px;
+    width: 248px;
+    margin-left: 21px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+  }
+  .logo-descricao {
+    height: 17px;
+    width: 226px;
+  }
+  h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    color: #ffff;
+  }
+  h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+  }
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    
+  
+  }
+  .topo {
+    width: 414px;
+    height: 92px;
+    background-color: #cf2b2b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .categoria1 {
+    height: 25px;
+    width: 250px;
+    background-color: #E5E5E5;;
+    margin-bottom: 12px;
+    position: relative;
+    margin-top: 85px;
+  }
+  .categoria2,
+  .categoria3 {
+    height: 25px;
+    width: 350px;
+    background-color: #E5E5E5;;
+    margin-bottom: 17px;
+    margin-top: 27px;
+  }
+  .categoria2 {
+    padding-top: 10px;
+  }
+  
+  .opcao-pratos {
+    background-color: #e5e5e5;
+    height: 326px;
+    width: 393px;
+    padding-top: 31px;
+    padding-left: 21px;
+  }
+  .opcao-bebidas {
+    background-color: #e5e5e5;
+    height: 246px;
+    width: 393px;
+    padding-left: 21px;
+    padding-bottom: 27px;
+  }
+  .opcao-sobremesas {
+    background-color: #e5e5e5;
+    height: 246px;
+    width: 393px;
+    margin-top: 0;
+    padding-left: 21px;
+    padding-bottom: 27px;
+    }
+    .rolavelUm, .rolavelDois, .rolavelTres {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  .rolavelUm, .rolavelDois, .rolavelTres :first-child {
+    margin-left: 0;
+  }
+  /*::-webkit-scrollbar{
+    display: none;
+  }*/
+
+  
+ .prato1,
+  .prato2,
+  .prato3 , .bebida1, .bebida2, .bebida3, .sobremesa1, .sobremesa2, .sobremesa3{
+    background-color: #ffff;
+    width: 172px;
+    height: auto;
+    padding: 18px 14px 13px 14px;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow:  0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+  }
+  button{
+    border:none;
+  }
+  
+  img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+  }
+  .nome-produto {
+    height: 23px;
+    width: 139px;
+  }
+  .descricao-produto {
+    height: 39px;
+    width: 147px;
+   
+  }
+  .preco {
+    height: 19px;
+    width: 143px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .inferior {
+    background-color: fuchsia;
+    width: 414px;
+    height: 92px;
+  }
+  .container {
+    height: 934px;
+    padding-bottom: 92px;
+    background-color: #e5e5e5;
+  }
+  .barra-inferior {
+    width: 414px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    position: fixed;
+    bottom: 0px;
+    left: 1px;
+    z-index: 1;
+    margin-bottom: 0px;
+  
+  }
+  .botao {
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    border: none;
+  }
+  .botao-pedido{
+  background-color: #32B72F;
+  color: #ffff;
+  font-size:20px
+
+  }
+  .texto-botao{
+    color: #ffff;
+
+  }
+  .selecionado{
+    border: 5px solid #32B72F;
+    border-radius: 9px;
+
+  }
+  
+ 
+ 
+
+  
